@@ -12,10 +12,9 @@ class DSArraysTest{
       while (teamsReader.hasNextLine()) {
         String data = teamsReader.nextLine();
         String[] attributes = data.split(",");
-        CFBTeam team = new CFBTeam(attributes[0], 
-        Integer.parsefromString)
+        CFBTeam team = new CFBTeam(attributes[0], Inte)
         teams = new CFBTeam[teams.length()+1];
-        teams[teams.length-1] = team
+        teams[teams.length-1] = team;
       }
       teamsReader.close();
     } catch (FileNotFoundException e) {
