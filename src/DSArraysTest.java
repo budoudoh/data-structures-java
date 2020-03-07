@@ -1,5 +1,13 @@
 import java.io.FileNotFoundException;
 
+/*
+* Course Module on using Arrays
+* Common Array functions
+*
+* Create a new array: CFBTeam[] teams = new CFBTeam[1];
+* Determine the size of an array: teams.length;
+* Access an item from an array: CFBTeam team  = teams[0];
+ */
 class DSArraysTest{
 
   private CFBTeam[] retrieveTeams(){
